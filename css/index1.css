@@ -1,0 +1,169 @@
+/* banner开始 */
+.banner {
+  position: relative;
+  height: 778px;
+  overflow: hidden;
+  border-bottom: 1px solid #979797;
+}
+
+.banner .banner-cont,
+.coupon-ban {
+  position: absolute;
+  width: 1920px;
+  left: 50%;
+  margin-left: -960px;
+}
+
+/* banner结束 */
+
+/* 西装模块开始 */
+.title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  box-shadow: 0px 0px 6px -2px #333;
+  border-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  margin: 20px 0;
+}
+
+.title img {
+  width: 35px;
+  height: 35px;
+  animation: a5 0.5s linear infinite;
+}
+
+@keyframes a5 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+.title h4 {
+  font-size: 32px;
+  letter-spacing: 5px;
+}
+
+.suit-img {
+  position: relative;
+  height: 586px;
+}
+
+.suit-img img {
+  width: 100%;
+}
+
+.suit-img a {
+  position: absolute;
+  bottom: 150px;
+  right: 260px;
+  width: 200px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 40px;
+  background-color: #eee;
+  border-radius: 40px;
+  height: 40px;
+}
+
+.suit-img a:hover {
+  color: rgb(22, 22, 155);
+}
+
+.same-list ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.same-list ul li {
+  width: 387px;
+  height: 506px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.same-list .x-top {
+  height: 405px;
+  display: flex;
+  justify-content: center;
+}
+
+.same-list .x-bot {
+  position: relative;
+  height: 108px;
+  padding: 10px 26px;
+}
+
+.same-list .x-bot p:nth-of-type(2) {
+  font-size: 18px;
+  color: #dc2424;
+  margin-top: 10px;
+}
+
+.same-list .x-bot p span {
+  float: right;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+}
+
+.x-bot img {
+  position: absolute;
+  top: 0;
+  right: 20px;
+}
+
+/* 西装模块结束 */
+
+.trousers-img {
+  height: 508px;
+}
+
+/* 商务皮鞋模块开始 */
+.shoes-img {
+  height: 505px;
+}
+/* 商务皮鞋模块结束 */
+
+/* 衬衫模块 */
+
+.shirt-img {
+  height: 375px;
+}
+.shirt-img img {
+  width: 100%;
+}
+/* 衬衫模块 */
+
+/* 短袖模块 */
+
+.short-t-img {
+  height: 280px;
+  overflow: hidden;
+}
+.short-t-img img {
+  width: 100%;
+}
+/* 短袖模块 */
+
+/* 礼服模块开始 */
+.full-dress-img {
+  height: 333px;
+}
+.full-dress-img img {
+  width: 100%;
+}
+/* 礼服模块结束 */
+
+/* 饰品模块开始 */
+.ornaments-img img {
+  width: 100%;
+}
+/* 饰品模块结束*/
